@@ -1201,9 +1201,9 @@ rdBg2yGGGR
 
 **Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
 **GitHub:**\
-https://github.com/jorvsk2007/jorvsk2007.github.io.git
+https://github.com/jorvsk2007/jorvsk2007.github.io.git\
 **LandingPage:**\
-https://jorvsk2007.github.io/
+https://jorvsk2007.github.io/\
 **GitHub (Estatico):**\
 https://github.com/Thoyx/PapirossoOffline
 
