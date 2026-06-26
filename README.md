@@ -41,11 +41,11 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
-| | |
-|---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> | |
-| <img loading = "lazy" width="400" alt="Login" src="https://github.com/user-attachments/assets/a23f5224-c830-419d-990c-65331520df5f" /> | |
-  <img loading ="lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/a7d1700a-7887-4c79-87ad-92082ed4bbe7" />
+| |
+|---|
+| <img loading="lazy"  alt="Login" width="800" src="https://github.com/user-attachments/assets/51a06d92-129a-455e-aa63-19f5bf40cf43"/> | 
+| <img loading = "lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/60492584-a657-4edb-8a8a-8891fa97d270"/> | 
+|  <img loading ="lazy" width="800" alt="Vista principal" src="https://github.com/user-attachments/assets/f892b50d-cd25-46fe-a49b-ca60ab9ef6dd" />|
 </details>
 
 ### ✨ Funcionalidades principales
@@ -59,8 +59,18 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 ### 🔗 Enlaces
 Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/booksnexus-back)
+
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
+
 Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
+
+Versión estática/localStorage, sin base de datos real: [Booksnexus Estatico](https://diegocstln.github.io/mi-proyecto-bd/?mode=local). 
+
+Backend/API Render: [Booksnexus API](https://booksnexus-back.onrender.com). 
+
+Para el acceso administrador con las teclas CTRL + SHIFT + A
+
+Admin de chocolate - contraseña: booksnexus2026
 
 ## Proyecto 2: DestinyCafe (Sistema de Gestión para Cafetería Artesanal)
 
@@ -150,72 +160,50 @@ Aplicación web diseñada para la gestión integral de un restaurante. Permite l
 * **Hosting:** GitHub Pages
 * **APIs Externas:** QR Server API
 
----
+
 
 ## 💻 Funcionalidades y capturas de pantalla
 
 El sistema está dividido en secciones interactivas que se actualizan de forma asíncrona mediante llamadas a la API REST de Supabase:
 
 * **🛒 Órdenes (Punto de Venta):** Permite abrir nuevas órdenes asignando a un empleado responsable. Cuenta con un carrito de compras interactivo que calcula subtotales y el total de la orden en tiempo real.
-  <details>
-  <summary>🖼️ Ver captura de Órdenes</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423354266779658/image.png?ex=6a191f8b&is=6a17ce0b&hm=33e1addec4938fbb265aec06c4a3f7787df94a08a9686d7c664451baf2a9ee03&=&format=webp&quality=lossless&width=1589&height=800" alt="Módulo de Órdenes" width="800"/>
-  </details>
 
 * **🍽️ Menú:** Visualización del catálogo de alimentos filtrable por categorías. Permite registrar nuevos platillos indicando nombre, precio y categoría.
-  <details>
-  <summary>🖼️ Ver captura del Menú</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423544562483310/image.png?ex=6a191fb8&is=6a17ce38&hm=436c9f43ca7d0159277702c2c680e614c2c00bcfadaddebc4d95e4087b0fed0d&=&format=webp&quality=lossless&width=1660&height=800" alt="Catálogo del Menú" width="800"/>
-  </details>
 
 * **🧺 Inventario:** Control estricto de insumos. Calcula las existencias reales sumando las entradas y muestra alertas de color (Agotado, Bajo, OK) basadas en un stock mínimo definido.
-  <details>
-  <summary>🖼️ Ver captura de Inventario</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423719779401808/image.png?ex=6a191fe2&is=6a17ce62&hm=3a9a76046e974b6e5c57b51fa6d128bbc0103e54679b561d0a8679244c220c4e&=&format=webp&quality=lossless&width=1681&height=800" alt="Control de Inventario" width="800"/>
-  </details>
 
 * **👨‍💼 Personal:** Gestión de la plantilla de empleados. Permite registrar altas de meseros con información de contacto, asignación de rol y turno (Mañana, Tarde, Noche).
-  <details>
-  <summary>🖼️ Ver captura de Personal</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423845696868402/image.png?ex=6a192000&is=6a17ce80&hm=e8ab1bf4a85c2df42db5d56901d8d05f34f9d150072d4eebafbdd8102caab83c&=&format=webp&quality=lossless&width=1684&height=800" alt="Gestión de Personal" width="800"/>
-  </details>
 
-* **🏷️ Mesas:** Plano virtual con 12 mesas. Muestra visualmente el estado (Libre / Ocupada) y un cronómetro en tiempo real con los minutos transcurridos desde que la mesa fue ocupada.
-  <details>
-  <summary>🖼️ Ver captura de Mesas</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423973627072552/image.png?ex=6a19201f&is=6a17ce9f&hm=a949744c6e7f5a0e13c710a66aa8f2f21e57b6f40be3fe0fdc68a0e52b40bc03&=&format=webp&quality=lossless&width=1686&height=800" alt="Mapa de Mesas" width="800"/>
-  </details>
+* **🏷️ Mesas:** Plano virtual con 10 mesas. Muestra visualmente el estado (Libre / Ocupada) y un cronómetro en tiempo real con los minutos transcurridos desde que la mesa fue ocupada.
 
 * **💳 Caja:** Módulo de liquidación de cuentas pendientes. Permite dividir la cuenta entre varios comensales, seleccionar el método de pago (Efectivo, Tarjeta, Transferencia) y generar un ticket de compra con formato de impresión.
-  <details>
-  <summary>🖼️ Ver captura de Caja</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509424073187528855/image.png?ex=6a192036&is=6a17ceb6&hm=119e966a3234355dc6141f3c43056d5d7d0e65614180200af21d2d4af6924e40&=&format=webp&quality=lossless&width=1860&height=629" alt="Módulo de Caja y Cobro" width="800"/>
-  </details>
 
 * **⭐ Reseñas y Código QR:** Generador dinámico de códigos QR únicos por mesa (consumiendo la API de `qrserver`). Los clientes pueden escanearlo para acceder a una vista pública y dejar una calificación de 1 a 5 estrellas junto con comentarios.
-  <details>
-  <summary>🖼️ Ver captura de Reseñas</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509424191273697380/image.png?ex=6a192052&is=6a17ced2&hm=30177e2b70c68348ee0125c5094df35dd33b45387c4573dc27c0081ad8701a32&=&format=webp&quality=lossless&width=1699&height=800" alt="Generador QR y Reseñas" width="800"/>
-  </details>
 
 * **🔔 Notificaciones Inteligentes:** Un servicio en segundo plano revisa automáticamente (cada 60 segundos) el sistema para alertar sobre ingredientes con stock bajo y órdenes que no han sido cobradas.
-  <details>
-  <summary>🖼️ Ver captura de Notificaciones</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509424316297777242/image.png?ex=6a192070&is=6a17cef0&hm=ac33fe06fd7a3c3c25245662424b37230bf2bb975717ef7f1841426492326995&=&format=webp&quality=lossless&width=499&height=930" alt="Panel de Notificaciones" width="400"/>
-  </details>
 
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/1.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/2.png?raw=true" />  
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/3.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/4.png?raw=true" /> 
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/5.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/6.png?raw=true" />  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/7.png?raw=true" />  
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/8.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/9.png?raw=true" />  
+</details>
+
+-----
 
 ### 🔗 Enlaces
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
 Demo en Vivo: [Página Web](https://aeiou520814-del.github.io/abc/)
+
+Código Fuente página sin base de datos: [Repositorio](https://github.com/ivangutg/prueba)
+Demo en Vivo de página sin base de datos: [Página Web](https://ivangutg.github.io/prueba/)
 
 ---
 
@@ -716,6 +704,8 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 ---
 
+## Pagina Con base de datos local:
+- **Enlace** [Repositorio](https://github.com/20gercha06-stack/VinylVibes_Local_Storage.git)
 ## Despliegue
 
 - **Backend:** hospedado en [Render](https://render.com). Configura las variables de entorno en Render → Environment.
@@ -794,13 +784,12 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 | | |
 |---|---|
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)" alt="Página principal de VinylVibes" width="800"/> | 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa)" alt="Búsqueda de discos" width="400"/>|
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)" alt="Seccion de generos musicales" width="400"/>|
-| <img loading="lazy" src="[[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)](https://github.com/user-attachments/assets/28cf1996-b01a-4a49-8d43-18dd05ac8edd)" alt="Seccion de generos musicales" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318" alt="Página principal de VinylVibes" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa" alt="Búsqueda de discos" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014" alt="Seccion de generos musicales" width="400"/>|
 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)" alt="Modal de historia" width="800"/> | 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)](https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40)" alt="Modal de Compra" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a" alt="Modal de historia" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40" alt="Modal de Compra" width="800"/> | 
 
 </details>
 
@@ -818,14 +807,73 @@ Demo en Vivo: [VinylVibes](https://akibanks.github.io/tienda_musica_web/)
 
 Para reportar un bug, abre un Issue en GitHub con el endpoint afectado, el request que lo reproduce y el error que devuelve.
 
+
+## Equipo 21:🍽️ Sistema de Gestión de Restaurante
+
+Aplicación web full-stack desarrollada para la gestión integral de un restaurante. El sistema permite la administración del menú, control de almacén, gestión de personal, finanzas y cuenta con un mapa  del salón en tiempo real.
+
+## Tecnologías Utilizadas
+* *Frontend:* HTML5, CSS3, JavaScript, Vite
+* *Backend:* PostgreSQL alojado en Supabase
+* *Hosting:* Vercel
+
 ---
 
-## Licencia
+## Funcionalidades y capturas de pantalla
 
-ISC
+El sistema está dividido en módulos interactivos que se comunican de forma asíncrona con la base de datos relacional para mantener la información actualizada:
+
+* *🪑 Salón Principal:* Plano visual del establecimiento con posicionamiento de las mesas. Muestra el estado de las 8 mesas (Libre u Ocupada) mediante filtros visuales que reaccionan en tiempo real a los registros de la base de datos, permitiendo abrir cuentas o visualizar pedidos con un clic.
+  <details>
+  <summary>🖼️  Captura del Salón</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/d7517efb-67f0-4e54-8b56-e085099ef7bd" alt="Mapa de Mesas Interactivo" width="800"/>
+  </details>
+
+* *🔐 Acceso y Seguridad:* Sistema de inicio de sesión validado con la base de datos para restringir el acceso según el rol del empleado.
+  <details>
+  <summary>🖼️ Captura de Inicio de Sesión</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/79e6baed-395d-487e-adc1-9ee656bb7223" alt="Login" width="800"/> 
+  </details>
+
+* *📋 Menú y Órdenes:* Catálogo de los platillos y bebidas del restaurante que permite tomar la orden directamente desde la mesa seleccionada, sumando totales al instante.
+  <details>
+  <summary>🖼️ Captura del Menú</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/772de401-0171-49cc-a700-652aa9705093" alt="Módulo de Menú" width="800"/>
+  </details>
+
+* *📦 Almacén:* Módulo para el control de inventario de los insumos y materias primas necesarios para la operación diaria.
+  <details>
+  <summary>🖼️ Captura del Almacén</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/6ab4974e-8ba2-4dec-aaf5-164564c89ed2" alt="Control de Almacén" width="800"/>
+  </details>
+
+* *👥 Personal:* Interfaz para la gestión y registro de los empleados, meseros y administradores del sistema.
+  <details>
+  <summary>🖼️ Captura de Personal</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/607e3ae6-9055-4cc4-9ecf-0015687459aa" alt="Gestión de Personal" width="800"/>
+  </details>
+
+* *📊 Finanzas:* Visualización de los ingresos y control de las cuentas cobradas en el establecimiento.
+  <details>
+  <summary>🖼️ Captura de Finanzas</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/7aa87642-240f-4806-bf7a-f015f8461d57" alt="Módulo de Finanzas" width="800"/>
+  </details>
 
 
+### 🔗 Enlaces del Proyecto
+* *Código Fuente:* [Repositorio en GitHub](https://github.com/samLimsx/proyecto-bases.git)
+* *Demo en Vivo:* [Página Web en Vercel](https://proyecto-bases-snowy.vercel.app/)
+* *Usuario de prueba:*admin@prueba.com
+* *Contraseña*admin
 
+---
+---
 
 ## Proyecto 7: Patitas Sanas - Veterinaria 
 Sistema web para una clínica veterinaria enfocado en realizar citas en línea, control de invetarios, 
@@ -844,57 +892,163 @@ manejo de personal e informacion sobre los servicios proporcionados.
 * Panel administrativo interno para el control de la agenda y expedientes.
 
 <details>
-<summary>🖼️ Ver capturas de pantalla</summary>
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="800"/> |
+<summary>🖼️ Ver Imagenes del Proyecto</summary>
+
+| Pantalla de Inicio |
+|---|
+| <img loading="lazy" src="./fotos/inicio.png" width="800"/> |
+
+| Servicios |
+|---|
+| <img loading="lazy" src="./fotos/servicios.png" width="800"/> |
+
+| Login |
+|---|
+| <img loading="lazy" src="./fotos/login.png" width="800"/> |
+
+| Panel de Citas |
+|---|
+| <img loading="lazy" src="./fotos/cita-1.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-2.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-3.png" width="800"/> |
+
+| Clientes |
+|---|
+| <img loading="lazy" src="./fotos/cliente.png" width="800"/> |
+
+| Inventario |
+|---|
+| <img loading="lazy" src="./fotos/inv.png" width="800"/> |
+
+| Recepcionista |
+|---|
+| <img loading="lazy" src="./fotos/rec.png" width="800"/> |
+
+| Administrador |
+|---|
+| <img loading="lazy" src="./fotos/admin-1.png" width="800"/> |
+| <img loading="lazy" src="./fotos/admin-2.png" width="800"/> |
+
+| Veterinario |
+|---|
+| <img loading="lazy" src="./fotos/vet.png" width="800"/> |
+
 </details>
 
 ### Usuarios:
-*Usuario de Prueba: Correo: Prueba1@gmail.com Contraseña: 123456789
-*Admin: Correo: admin@gmail.com Contraseña: Admin2026
+### Usuario de Prueba: 
+* Correo: usuariodemo@gmail.com
+* Contraseña: usuario1234
+
+### Recepcionista: 
+* Correo: marirep@gmail.com
+* Contraseña: Spam18091809.
+
+### Veterinario
+* Correo: veterinario@demo.com
+* Contraseña: vet123
+
+### Admin: 
+Correo: admin@patitassanas.com
+Contraseña: Admin1234
 
 ### 🔗 Enlaces
-Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
-Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
+* Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
+* Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
 --- 
 
 ## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
-Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
 
-### 🛠️ Tecnologías
-* Frontend: React 19, Vite, React Router DOM, Axios
-* Backend: Node.js, Express 5
-* Base de datos: MySQL 
-* Autenticación: JWT, hashing con argon2
-* Validación: Zod
-* Despliegue: Railway y Vercel
+**Scynara** es un sistema web full-stack diseñado para la gestión integral de una tienda o cadena de sucursales.  
+Permite administrar inventario, productos, proveedores, ventas, clientes y usuarios/empleados desde una plataforma centralizada.
 
-### ✨ Funcionalidades principales
+---
 
-* Autenticación y gestión de usuarios
-* Gestión de proveedores
-* Gestión de productos / inventario
-* Gestión de ventas
+### Enlaces del proyecto
+
+| Recurso | Enlace |
+|---|---|
+| Frontend | [Repositorio Frontend](https://github.com/scynara09-hue/Scynara-Frontend) |
+| Backend | [Repositorio Backend](https://github.com/scynara09-hue/Scynara-Backend) |
+| Demo en vivo | [Ver aplicación](https://scynara-frontend.vercel.app/) |
+| Página estática | [Ver página estática](https://localstoragescynara-production.up.railway.app/) |
+
+---
+
+### Tecnologías utilizadas
+
+| Área | Tecnologías |
+|---|---|
+| Frontend | React 19, Vite, React Router DOM, Axios |
+| Backend | Node.js, Express 5 |
+| Base de datos | MySQL |
+| Autenticación | JWT, hashing con Argon2 |
+| Validación | Zod |
+| Despliegue | Railway y Vercel |
+
+---
+
+### Funcionalidades principales
+
+- Autenticación y gestión de usuarios.
+- Gestión de proveedores.
+- Gestión de productos e inventario.
+- Gestión de ventas.
+- Control de clientes y empleados.
+- Administración de sucursales y operaciones comerciales.
+
+---
+
+### Capturas de pantalla
 
 <details>
-<summary>🖼️ Ver capturas de pantalla</summary>
-<img loading="lazy" width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
-<img loading="lazy" width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
+<summary>Ver capturas del sistema</summary>
+
+<br>
+
+<img loading="lazy" width="100%" alt="Pantalla principal de Scynara" src="https://github.com/user-attachments/assets/10566f3a-1c23-44ff-bb3b-c632f3267792" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Panel de gestión de Administrador" src="https://github.com/user-attachments/assets/2fcb94ea-742c-4cb6-a589-be5cbca2bbbd" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Vista de inventario de Invitado" src="https://github.com/user-attachments/assets/91ae629c-61a1-42f1-aca7-82372e0dc341" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Módulo de productos de Dueño de tienda" src="https://github.com/user-attachments/assets/b3444071-0fb1-4183-bcf0-6ebeadfcd74b" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Módulo de proveedores de Administrador" src="https://github.com/user-attachments/assets/6dd6a8bd-4b23-4684-bcdb-a99e1dd05b78" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Módulo de ventas de Invitado" src="https://github.com/user-attachments/assets/df7e9c01-173f-4146-8424-b1f5ef8fa2de" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Vista administrativa de Dueño de tienda" src="https://github.com/user-attachments/assets/bee293a1-b13d-4704-a8df-097e9eb7f45b" />
+
 </details>
 
-Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
-Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
-Demo en Vivo: [Página Web](https://scynara-frontend.vercel.app/)
-### 🔑 Credenciales de Acceso (Para Evaluación)
 
-- **Correo:** admin@scynara.com
-- **Contraseña:** aAdmin1234!
 
-> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+---
 
---- 
-  
+### Credenciales de acceso para evaluación
+
+| Campo | Dato |
+|---|---|
+| Correo | `invitado@scynara.com` |
+| Contraseña | `Invitado1234!` |
+
+> Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de proteger la información del proyecto en producción.
+
+---
 ## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
 Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
 
@@ -957,15 +1111,14 @@ El sistema funciona como un gestor relacional de expedientes que automatiza el c
 <img width="1600" height="754" alt="abogado" src="https://github.com/user-attachments/assets/42c0483c-c947-4d44-b400-08c2e912a4ad" loading="lazy" /> 
 <img width="1600" height="746" alt="regisclient" src="https://github.com/user-attachments/assets/446e047b-f2e5-4d17-b529-74141bc8edc4" loading="lazy" />
 </details>
-🔑 Credenciales de Acceso (Para Evaluación)
-Para ingresar al sistema con privilegios totales de administrador y evaluar el flujo completo (dashboard, creación de escrituras y alta de personal), utiliza la siguiente cuenta:
-* **Rol:** Notario Titular
-* **Usuario:** roberto.notario@notaria105.com
-* **Contraseña:** c123
- 
-🔗 Enlaces
-* **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
-* **Demo en Vivo:** [notaria105](https://notaria-105.onrender.com/)
+### 🔑 Accesos (Evaluación)
+* **Notario:** `notario@notaria105.com` / `notario123`
+* **Abogado:** `abogado@notaria105.com` / `abogado123`
+* **Cliente:** `cliente@example.com` / CURP: `PELJ850303HDFRPN03`
+
+### 🔗 Enlaces del Sistema
+* **Principal:** [Código Fuente](https://github.com/s06008525-max/notaria-105) | [Despliegue](https://notaria-105.onrender.com/)
+* **Estático:** [Código Fuente](https://github.com/ingmatmus7-ai/notaria105_estatica) | [Despliegue](https://ingmatmus7-ai.github.io/notaria105_estatica/)
 
 # Proyecto 11: Refaccionaria Leo 🚗
 
@@ -1000,6 +1153,10 @@ Este proyecto consiste en un sitio web de comercio electrónico para una refacci
 * [Repositorio en GitHub](https://github.com/Nahum1802/Refaccionaria-Leo)
 * [Sitio Web en Vivo](https://nahum1802.github.io/Refaccionaria-Leo/)
 
+## Cuentas de Acceso ##
+* **Correo:** tester1@test.com
+* **COntraseña:** tester1234
+
 ## Proyecto 12: Distribuidora de Abarrotes Kafra
 
 Sistema integral para la gestión de inventario, ventas y distribuicion de abarrotes.
@@ -1021,6 +1178,15 @@ Sistema integral para la gestión de inventario, ventas y distribuicion de abarr
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/DerekArenas/kafra-dashboard)
 * **Demo en Vivo (Github Pages):** [Pagina Distribuidora Kafra](https://derekarenas.github.io/kafra-dashboard/)
+* **Pagina estatica:** [Pagina Distribuidora Kafra](https://sodaplanta.github.io/sitio-practica/)
+
+<details>
+<summary>🖼️ Login para pagina estatica</summary>
+User:
+admin
+Password:
+123
+</details>
 
 <details>
 <summary>🖼️ Login para consulta</summary>
@@ -1038,6 +1204,10 @@ rdBg2yGGGR
 **LandingPage:** https://jorvsk2007.github.io/
 **GitHub (Estatico):**
 https://github.com/Thoyx/PapirossoOffline
+
+### Formas de acceder
+**Trabajador:** CHOC000101HDFRRR00  **Contraseña:** chocolate123
+**Cliente:** CHOC000101HDFRRR99 **Contraseña:** chocolate123
 
 ### Descripción del Proceso de Normalización
 Mediante nuestro proyecto buscamos implementar una automatizacion para cobros, registro de mercancias y clientes así como trabajadores mediante un portal web para agilizar el tiempo de una venta y reducir el consumo de papel y errores matemáticos.
@@ -1104,6 +1274,30 @@ Admin de prueba:EMP-0003 Contraseña 12345
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 
+PAGINA ESTATICA 
+
+Esta versión no usa Supabase ni base de datos real. Los datos se simulan en el navegador con localStorage.
+
+ARCHIVO PRINCIPAL:
+- index.html
+
+CUENTAS DE PRUEBA:
+
+Administrador:
+- Usuario: EMP-0042
+- Contraseña: 1234
+
+Administrador alterno:
+- Usuario: EMP-0001
+- Contraseña: admin123
+
+Empleado:
+- Usuario: EMP-0002
+- Contraseña: empleado123
+
+Página estatica: https://dianalizzt.github.io/huellitas-estatico/
+Repositorio: https://github.com/dianalizzt/huellitas-estatico
+
 
 ## 😷 Proyecto 15: Sistema de Agendado de citas medicas
 Sistema web para el agendado y gestión de citas medicas en un hospital
@@ -1138,9 +1332,12 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 </details>
 
 
-##🔗 Enlaces del Proyecto
+##  🔗 Enlaces del Proyecto
 Código Fuente: [Repositorio Github] (https://github.com/AugustoHFV/SistemaMedicoHOST)
 Demo en Vivo: [Sistema Medico] (https://sistemamedico-1gmy.onrender.com)
+Paginta Estatica: [Link de la pagina]  (https://warinsanomachine.github.io/sistema-medico-estatico/)
+Sesion de Administrador de la pagina estatica: admin@medico.com || Contraseña: Amdhn123
+Sesion de Medico de la pagina estatica: daniel@medico.com || Daniel123 
 
 ## Proyecto 16: Payapp+
 Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
@@ -1269,6 +1466,9 @@ https://github.com/JULIO-MILAN/mantra-backend
 **Demo en vivo:**
 https://mantra-backend-24g1.onrender.com/
 
+**Link version estatica:**
+https://julio-milan.github.io/MANTRA-ESTATICO/index.html
+
 ## Proyecto 18: Compañía de Danza — App de administración
 
 Aplicación de laboratorio para administrar integrantes, bailes, presentaciones, cuadros, observaciones e inventario. El sistema fue desarrollado con HTML, CSS y JavaScript puro, y se conecta a una base de datos Postgres en Supabase mediante una función RPC para ejecutar consultas SQL.
@@ -1324,7 +1524,12 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/main)
 - **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
+- **Página Estática:** [Ver página estática](https://paginaestaticagj.vercel.app/)
 
+### Credenciales de prueba para página estática
+
+- **Usuario:** `integrante@danza.mx`
+- **Contraseña:** `pass123`
 ## Proyecto 19: ABV Library (Sistema de Gestión de Librería)
 
 Sistema web completo de gestión para una librería/biblioteca. Permite administrar libros, empleados, clientes, proveedores, ventas, préstamos y donaciones desde una interfaz moderna tipo marketplace con tres roles de acceso.
@@ -1339,18 +1544,37 @@ Sistema web completo de gestión para una librería/biblioteca. Permite administ
 - **Despliegue:** Render (web service + PostgreSQL)
 
 <details>
-<summary>▶ 🖼️ Ver capturas de pantalla</summary>
+<summary>🖼️ Ver capturas de pantalla</summary>
 
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/01-catalogo.png" alt="Catálogo de libros" width="800"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/02-modo-oscuro.png" alt="Modo oscuro" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/03-login.png" alt="Login unificado" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/04-admin-panel.png" alt="Panel administrador" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/05-libros-stock.png" alt="Gestión de libros y stock" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/06-bibliotecario-panel.png" alt="Panel bibliotecario" width="400"/>  
-<img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/07-carrito-ventas.png" alt="Carrito de ventas" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/08-portal-cliente.png" alt="Portal del cliente" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/09-facturas.png" alt="Reporte de facturas" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/10-proveedores.png" alt="Recepción de paquetes" width="800"/> |
+<br>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/01-catalogo.png" alt="Catálogo de libros" width="800"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/02-modo-oscuro.png" alt="Modo oscuro" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/03-login.png" alt="Login unificado" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/04-admin-panel.png" alt="Panel administrador" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/05-libros-stock.png" alt="Gestión de libros y stock" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/06-bibliotecario-panel.png" alt="Panel bibliotecario" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/07-carrito-ventas.png" alt="Carrito de ventas" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/08-portal-cliente.png" alt="Portal del cliente" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/09-facturas.png" alt="Reporte de facturas" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/10-proveedores.png" alt="Recepción de paquetes" width="800"/>
+</p>
 
 </details>
 
@@ -1759,25 +1983,25 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 
 **Login**
 
-<img src="screenshots/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/login.png  " alt="Pantalla de inicio de sesión" loading="lazy" width="800">
 
 ---
 
 **Registro de usuario**
 
-<img src="screenshots/registro.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Formulario.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
 
 ---
 
 **Formulario de recepción**
 
-<img src="screenshots/formulario.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/registro.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
 
 ---
 
 **Panel de administración**
 
-<img src="screenshots/administrador.png" alt="Panel de administración" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Administrador.png" alt="Panel de administración" loading="lazy" width="800">
 
 ---
 
@@ -1932,3 +2156,208 @@ IMAGENES
 <img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Imagen 2" width="800"/>
 
 <img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Imagen 3" width="800"/>
+
+# Proyecto 33: BiblioTech (Gestión de Biblioteca ESCOM)
+
+Plataforma web enfocada en la comunidad universitaria (alumnos y profesores), diseñada para facilitar la administración del catálogo de libros. Permite a los usuarios explorar millones de ejemplares en la red global mediante una API externa y gestionar solicitudes de préstamos físicos del acervo local.
+
+### 🛠️ Tecnologías Implementadas
+
+* **Base de Datos / Backend:** PostgreSQL (Supabase) y Supabase Auth
+* **Consumo de Datos:** Open Library API REST
+* **Frontend:** HTML5, CSS3 avanzado (Flexbox/Grid, variables CSS) y JavaScript vanilla (Fetch API, DOM dinámico)
+* **Despliegue:** GitHub Pages
+
+<details>
+<summary>🖼️ Ver capturas de pantalla de la plataforma</summary>
+
+| Pantalla de Inicio | Inicio de Sesión |
+|:---:|:---:|
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Page.png" alt="Vista principal" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Login.png" alt="Login" width="400"/> |
+
+| Registro de Usuario | Vista de Catálogo / Sección |
+|:---:|:---:|
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Register.png" alt="Registro" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Section.png" alt="Vista de Sección" width="400"/> |
+
+| Vista Previa del Libro |
+|:---:|
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Preview.png" alt="Detalle del Libro" width="400"/> |
+
+</details>
+
+### ✨ Funcionalidades principales
+
+* Registro e inicio de sesión seguro y validado para alumnos y profesores (utilizando boleta o número de empleado).
+* Búsqueda y exploración de libros globales y en tendencia (Ciencias e Ingeniería) en tiempo real.
+* Visualización dedicada del acervo físico local disponible en la biblioteca.
+* Sistema interactivo para la solicitud de préstamos de ejemplares físicos con cálculo automático de fechas de devolución (7 días).
+* Paginación dinámica y renderizado de tarjetas de catálogo sin recargar la página.
+* Interfaz completamente responsiva con soporte integrado para Modo Claro / Modo Oscuro.
+* Sistema de internacionalización (i18n) para cambiar el idioma de la interfaz (Español, Inglés, Francés).
+
+### 🔗 Enlaces
+
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/xsuik33/xsuik33.github.io)
+* **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io)
+
+
+
+# 🔧 Ferretería Tico — Sistema Web de Inventario
+
+## 👥 Integrantes
+
+* Navarrete Hernández Laura Itzel
+* Patiño Nicasio Diego
+
+---
+
+# 📌 Descripción
+
+*Ferretería Tico* es un sistema web de gestión de inventario desarrollado para administrar productos de una ferretería de manera rápida y sencilla.
+
+El sistema permite:
+
+* Registrar productos
+* Editar información
+* Eliminar registros
+* Consultar inventario
+* Buscar y filtrar productos
+* Controlar stock bajo
+
+La aplicación se conecta a una base de datos PostgreSQL alojada en *Supabase* utilizando la API REST automática proporcionada por la plataforma.
+
+El proyecto fue desplegado utilizando *GitHub Pages*.
+
+---
+
+# 🌐 Enlaces del Proyecto
+
+## 🔗 GitHub Pages
+
+https://itzelnavarrete.github.io/ferreteria-TICO/index.html
+
+## 🔗 Repositorio GitHub
+
+https://github.com/itzelnavarrete/ferreteria-TICO
+
+---
+
+## Página principal
+
+<img src="https://github.com/user-attachments/assets/e85709c9-fa1c-40fe-8851-922d6c3d2d75" loading="lazy" width="900">
+
+## Inventario de productos
+
+<img src="https://github.com/user-attachments/assets/e0353579-6c93-48d3-9808-852378772e38" loading="lazy" width="900">
+
+## Formulario de agregar producto
+
+<img src="https://github.com/user-attachments/assets/edf6f49b-4463-4dcb-a9aa-d3c264ee403d" loading="lazy" width="900">
+
+## Ventas
+
+<img src="https://github.com/user-attachments/assets/d69f4142-6dc7-4d0a-9747-6969b6e60f3d" loading="lazy" width="900">
+
+---
+
+# ⚙️ Funcionalidades
+
+* ✅ Visualización completa del inventario
+* ✅ Estadísticas automáticas
+* ✅ Búsqueda por nombre o marca
+* ✅ Filtro por categorías
+* ✅ Registro de productos
+* ✅ Edición de productos
+* ✅ Eliminación de registros
+* ✅ Alerta visual de stock bajo
+* ✅ Modo demo sin conexión a base de datos
+* ✅ Interfaz responsiva y moderna
+
+---
+
+# 🧱 Estructura del Proyecto
+
+bash
+ferreteria-tico/
+├── index.html
+├── landing.html
+├── style.css
+├── script.js
+├── supabase_setup.sql
+├── img/
+│   ├── captura_inicio.png
+│   ├── captura_inventario.png
+│   ├── captura_formulario.png
+│   └── captura_estadisticas.png
+└── README.md
+
+
+---
+
+# 🛠️ Stack Tecnológico
+
+| Capa          | Tecnología                      |
+| ------------- | ------------------------------- |
+| Frontend      | HTML5 · CSS3 · JavaScript ES6+  |
+| Base de datos | PostgreSQL (Supabase)           |
+| Hosting       | GitHub Pages                    |
+| API           | Supabase REST API               |
+
+---
+
+# 🗄️ Base de Datos
+
+La base de datos fue diseñada utilizando PostgreSQL en Supabase.
+
+Incluye:
+
+* Tabla de productos
+* Categorías
+* Control de stock
+* Precios
+* Marcas
+* CRUD completo
+
+
+
+# 📊 Características del Sistema
+
+El sistema fue desarrollado pensando en pequeños negocios de ferretería que necesitan un control rápido y eficiente de productos.
+
+Permite:
+
+* Mejor administración del inventario
+* Evitar pérdidas por falta de stock
+* Organización por categorías
+* Gestión sencilla desde navegador
+
+---
+
+# 📚 Aprendizajes del Proyecto
+
+Durante el desarrollo se aplicaron conocimientos de:
+
+* Bases de datos relacionales
+* CRUD
+* Integración frontend-backend
+* APIs REST
+* Git y GitHub
+* GitHub Pages
+* PostgreSQL
+* Diseño web responsivo
+
+# 🍫Admin de chocolate🍫
+Usuario: ferreteriatico@gmail.com
+Contraseña: ferreteriatico
+
+## Entidad relacion
+
+<img src="https://github.com/user-attachments/assets/6b1470cf-0227-430f-896c-d041b472eec4" loading="lazy" width="900">
+
+## Modelo relacional
+
+<img src="https://github.com/user-attachments/assets/ee1a588b-5145-4a02-850c-cb5749d974d3" loading="lazy" width="900">
+
+## Modelo relacional extendido 
+
+<img src="https://github.com/user-attachments/assets/32c3280e-5b39-4308-bb83-3c7962a6eee4" loading="lazy" width="900">
