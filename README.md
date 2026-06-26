@@ -1200,9 +1200,11 @@ rdBg2yGGGR
 ## Proyecto 13 PAPIROSSO (papeleria)
 
 **Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
-**GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
-**LandingPage:** https://jorvsk2007.github.io/
-**GitHub (Estatico):**
+**GitHub:**\
+https://github.com/jorvsk2007/jorvsk2007.github.io.git
+**LandingPage:**\
+https://jorvsk2007.github.io/
+**GitHub (Estatico):**\
 https://github.com/Thoyx/PapirossoOffline
 
 ### Formas de acceder
